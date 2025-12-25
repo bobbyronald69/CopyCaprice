@@ -123,7 +123,7 @@ Tweet:
 # ----------------------------------------------------------
 def rewrite_tweet(text):
     prompt = f"""
-Rewrite this options execution tweet in an unprofessional, cute, format.
+Rewrite this options execution tweet in an unprofessional, cute, format, but keep it short.
 
 Rules:
 - Preserve ticker, strike, expiry, and pricing details.
